@@ -1,0 +1,141 @@
+/* body {
+  background-image: linear-gradient(white, rgb(107, 206, 255));
+  height: 100vh;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.container {
+  background-image: url("../res/bckimg.png");
+  max-width: 955px;
+  margin: auto;
+  height: 60vh;
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+} */
+
+/* .message {
+  background-color: rgb(206, 206, 206);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+}
+
+#msginp {
+  width: 92%;
+  height: 30px;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 3px solid;
+  border-radius: 6px;
+  height: 34px;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(white, rgb(107, 206, 255));
+  font-family: "Roboto", sans-serif;
+}
+
+section.chat__section {
+  width: 800px;
+  max-width: 90%;
+  background-image: url("./bckimg.png");
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+  padding: 20px;
+  background: #c9c6c6;
+  display: flex;
+  align-items: center;
+}
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444;
+  margin-left: 10px;
+}
+.message__area {
+  height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 40px;
+}
+textarea {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background: #fbfbfb;
+}
+
+.message {
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  max-width: 300px;
+  position: relative;
+}
+.incoming {
+  background: #62a1ff;
+  color: #fff;
+}
+.outgoing {
+  background: hsl(191, 100%, 89%);
+  color: #787986;
+  margin-left: auto;
+}
+.message h4 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #333;
+  font-size: 14px;
+}
